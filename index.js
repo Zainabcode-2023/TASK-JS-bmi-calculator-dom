@@ -25,3 +25,20 @@ function calculateBMI() {
   }
   alert(" the bmi state is:" + bmi);
 }
+
+let age;
+let bmi_State;
+if (age >= 19 || age <= 25) {
+  console.log("BMI state is between 19 to 24");
+} else if (age <= 25 || age >= 34) {
+  console.log("BMI state is between 20 to 25");
+} else if (age <= 35 || age >= 44) {
+  console.log("BMI state is between 21 to 26");
+} else if (age <= 45 || age >= 54) {
+  console.log("BMI state is between 22 to 27");
+} else if (age <= 55 || age >= 64) {
+  console.log("BMI state is between 23 to 28");
+} else if (age >= 65) {
+  console.log("BMI state is between 24 to 29");
+}
+alert("your BMI state is healthy" + bmi_State);
